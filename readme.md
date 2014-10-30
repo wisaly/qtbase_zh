@@ -6,7 +6,7 @@
 所有和qt_zh_CN.ts重复的文本都已经翻译（使用TsSync工具），剩下的翻译了一部分，有精力的人可以尝试都翻译完。
 
 usage:
-`
+```
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -22,4 +22,4 @@ int main(int argc, char *argv[])
     ...
     return app.exec();
 }
-`
+```
