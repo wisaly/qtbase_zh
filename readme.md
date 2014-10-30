@@ -1,9 +1,9 @@
-qtbase_zh_CN.ts
+﻿qtbase_zh_CN.ts
 
-��֪ʲôԭ�򣬹ٷ�������Qt5.2������qtbaseϵ�е����ķ��롣
-�⽫����QMessageBox�İ�ť�޷���������Ϊ�����յ�����QPlatformTheme����غ�������QPlatformTheme��������qt_zh_CN�С�
+不知什么原因，官方发布的Qt5.2不包含qtbase系列的中文翻译。
+这将导致QMessageBox的按钮无法汉化，因为它最终调用了QPlatformTheme的相关函数，而QPlatformTheme不包含在qt_zh_CN中。
 
-���к�qt_zh_CN.ts�ظ����ı����Ѿ����루ʹ��TsSync���ߣ���ʣ�µķ�����һ���֣��о������˿��Գ��Զ������ꡣ
+所有和qt_zh_CN.ts重复的文本都已经翻译（使用TsSync工具），剩下的翻译了一部分，有精力的人可以尝试都翻译完。
 
 usage:
 `
